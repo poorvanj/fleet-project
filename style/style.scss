@@ -1,0 +1,259 @@
+body, html, .container, .loader-container {
+	height:100%;
+}
+
+
+body {
+	background-color: #faf7f5 !important;
+}
+
+span.user-fonts {
+	padding: 30px;
+	display: block;
+	text-align: center;
+}
+
+div.container {
+    margin: 0 auto;
+    background-color: #faf7f5;
+    padding: 0;
+    max-width: 100%;
+
+    .header {
+		height: 60px;
+	    background-color: #10c0b0;
+
+		div:nth-child(1) {
+			color: white;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+		    letter-spacing: 1px;
+			font-size: 20px;
+			float: left;
+		    padding: 15px 30px;
+		}
+
+		div:nth-child(2) {
+			color: white;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+		    letter-spacing: 1px;
+		    float: right;
+		    padding: 20px;
+		}
+	}
+
+	.home-container {
+		margin: 0 auto;
+	    width: 67%;
+	    padding: 0px;
+	    display: block;	
+	    overflow: auto;
+	    clear: both;
+	    min-height: 500px;
+	    text-align: center;
+
+	    .heading {
+			font-family: 'Lato', sans-serif;
+			font-weight: 500;
+			padding: 20px 55px;
+		    letter-spacing: 2px;
+		}
+
+		div {
+			padding: 30px 20px;
+		    //float: left;
+		    box-shadow: 0px 5px 15px 0px #ccc;
+		    margin: 50px 5px;
+		    min-width:300px;
+		    background-color: #fff;
+		    cursor: pointer;
+		    display: inline-block;
+		}
+
+		span.title {
+			padding: 30px;
+			display: block;
+			text-align: center;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			font-size: 20px;
+		    letter-spacing: 2px;
+		}
+	}
+
+	.footer { 
+		position: relative; 
+		bottom: 0;
+		background-color: #444;
+	    width: 100%;
+	    padding: 20px; 
+	    height: 200px;
+
+	    .footer-container {
+			width: 70%;
+		    margin: 0 auto;
+
+		    .base {
+				width: 100%;
+			    display: block;
+			    text-align: left;
+			    clear: both;
+			    padding: 50px 0px 0px;
+
+			    p {
+					color: white;
+					display: block;
+					font-family: 'Lato', sans-serif;
+					font-weight: 100;
+				    letter-spacing: 1px;
+				    font-size: 12px;
+				    padding: 5px;
+				}
+			}
+			
+		    .column-icons a {
+			   float: left;
+			}
+
+			div.column {
+				width: 33%;
+				float: left;
+				font-family: 'Lato', sans-serif;
+				font-weight: 100;
+			    letter-spacing: 1px;
+
+			    a {
+			    	color: white;
+					display: block;
+					font-family: 'Lato', sans-serif;
+					font-weight: 100;
+				    letter-spacing: 1px;
+				    font-size: 12px;
+				    padding: 5px;
+			    }
+
+			    a:hover {
+				    text-decoration: none;
+				    color: #10c0b0;
+				}
+			}
+		}
+	}
+}
+
+.header-bottom {
+    padding: 20px 30px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+    letter-spacing: 1px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.providers {
+	margin: 0 auto;
+	padding: 0px;
+
+	.provider-block {
+		list-style: none;
+		padding: 20px;
+		display: inline-block;
+		box-shadow: 0px 5px 15px 0px #ccc;
+		margin: 10px;
+		min-width: 280px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+	    letter-spacing: 2px;
+	    background-color: white;
+
+	    img {
+			margin: 0 auto;
+	    	display: block;
+	   		max-height: 150px;
+	    	padding: 10px;
+	   	}
+	}
+}
+
+.loader-container {
+	background-color: #333;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+    z-index: 100;
+
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+
+	.loader-screen {
+	    font-size: 24px;
+	    color: white;
+	    font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	    letter-spacing: 1px;
+	}
+
+}
+
+@media screen and (max-width: 510px) {
+	div.container {
+		.home-container {
+			div {
+				min-width: 90%;
+			}
+
+			.heading {
+				font-size: 25px;
+			}
+		}
+	}
+
+	.providers {
+		padding: 0px;
+
+		.provider-block {
+			min-width: 90%;
+
+			img {
+				width:70%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 510px) {
+	div.container {
+		.home-container {
+
+			.heading {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+body, html, .container, .loader-container {
+	height:100%;
+}

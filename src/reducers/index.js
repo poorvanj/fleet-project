@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import providers from './providers.js';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  providers: providers
 });
 
 export default rootReducer;

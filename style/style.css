@@ -1,0 +1,164 @@
+
+body {
+	background-color: #faf7f5 !important;
+}
+
+.home-container {
+    margin: 0 auto;
+    width: 67%;
+    padding: 0px;
+    display: block;	
+    overflow: auto;
+    clear: both;
+    min-height: 500px;
+}
+
+
+.home-container div {
+		padding: 30px 20px;
+	    float: left;
+	    box-shadow: 0px 5px 15px 0px #ccc;
+	    margin: 50px 5px;
+	    min-width:300px;
+	    background-color: #fff;
+	    cursor: pointer;
+}
+
+.home-container span.title {
+	padding: 30px;
+	display: block;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+    letter-spacing: 2px;
+}
+
+span.user-fonts {
+	padding: 30px;
+	display: block;
+	text-align: center;
+}
+
+div.container {
+    margin: 0 auto;
+    background-color: #faf7f5;
+    padding: 0;
+    max-width: 100%;
+}
+
+.provider-block {
+	list-style: none;
+	padding: 20px;
+	float: left;
+	box-shadow: 0px 5px 15px 0px #ccc;
+	margin: 10px;
+	min-width: 280px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+.provider-block img {
+	margin: 0 auto;
+    display: block;
+    max-height: 150px;
+    padding: 10px;
+}
+
+.heading {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 20px 55px;
+    letter-spacing: 2px;
+}
+
+.header {
+    height: 60px;
+    background-color: #10c0b0;
+}
+
+.header div:nth-child(1) {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+    letter-spacing: 1px;
+	font-size: 20px;
+	float: left;
+    padding: 15px 30px;
+}
+
+.header div:nth-child(2) {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+    letter-spacing: 1px;
+    float: right;
+    padding: 20px;
+}
+
+.providers {
+	margin: 0 auto;
+}
+
+.footer { 
+	position: relative; 
+	bottom: 0;
+	background-color: #444;
+    width: 100%;
+    padding: 20px; 
+    height: 200px;
+}
+
+.footer div.column {
+	width: 33%;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.column a, .base p {
+	color: white;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.base {
+	width: 100%;
+    display: block;
+    text-align: left;
+    clear: both;
+    padding: 50px 0px 0px;
+}
+
+.column a:hover {
+    text-decoration: none;
+    color: #10c0b0;
+}
+
+.footer-container {
+	width: 70%;
+    margin: 0 auto;
+}
+
+.column-icons a {
+   float: left;
+}
+
+.header-bottom {
+    padding: 20px 30px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+    letter-spacing: 1px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
